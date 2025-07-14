@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required information</p>
+  </header>
+
+  <main>
+    <div class="form-container">
+        <form action="#" method="post">
+        <div class="personalDetail">
+          <label for="firstName">Enter Your First Name:</label>
+          <input type="text" id="firstName" name="firstName" required />
+
+          <label for="lastName">Enter Your Last Name:</label>
+          <input type="text" id="lastName" name="lastName" required />
+
+          <label for="email">Enter Your Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="createPassword">Create a New Password:</label>
+          <input type="password" id="createPassword" name="createPassword" required />
+        </div>
+
+        <hr />
+
+        <div class="options">
+          <p>Account type (required)</p>
+          <label for="personal">
+            <input type="radio" id="personal" name="account" value="personal" required />
+            Personal
+          </label>
+          <label for="business">
+            <input type="radio" id="business" name="account" value="business" />
+            Business
+          </label>
+        </div>
+
+        <hr />
+
+        <div class="option2">
+            <div class="uplo">
+          <label for="profilePic">Upload a profile picture:</label>
+          <input type="file" id="profilePic" name="profilePic" />
+          </div>
+          <div class="inpuAge">
+            <label for="inputAge">Input your age (years):</label>
+          <input type="number" id="inputAge" name="inputAge" min="18" max="80" />
+          </div>
+
+          <div class="selectHea">
+          <label for="hear">How did you hear about us?</label>
+          <select id="hear" name="hear">
+            <option value="">Select One</option>
+            <option value="freeCodeCamp">freeCodeCamp</option>
+            <option value="Youtube">YouTube</option>
+            <option value="Facebook">Facebook</option>
+            <option value="other">Other</option>
+          </select>
+          </div>
+          <div class="textArea">
+            <label for="textAr">Provide a bio:</label>
+          <textarea name="textAr" id="textAr" cols="30" rows="5" placeholder="I like coding on the beach..."></textarea>
+           </div>
+
+          <div class="terrrrm">
+            <label for="terms">
+            <input type="checkbox" id="terms" name="terms" required />
+            I accept the terms and conditions
+          </label>
+          </div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
