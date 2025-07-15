@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(96, 161, 161);
+}
+.containor{
+    background-color: #f0f8ff;
+    width: 700px;
+    height: 350px;
+    margin: 60px  auto;
+    border-radius: 4px;
+    
+}
+.head-sec{
+   text-align: center;
+}
+.head-sec p{
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    align-items: center;
+    padding: 21px 16px;
+}
+.form-conta{
+   margin-left: 55px;
+    width: 400px;
+
+}
+.form-conta label{
+   margin-left: 295px;
+
+}
+.form-conta input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 7px;
+    border: none;
+     margin-left: 95px;
+     margin-bottom: 12px;
+}
+.btn{
+    background-color: rgb(22, 104, 22);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    align-items: center;
+    margin: 25px 280px;
+}
