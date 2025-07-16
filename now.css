@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(79, 167, 167);
+}
+.containor{
+    background: #ffffff; 
+    width: 450px;
+    height: 280px;
+    margin: 45px auto;
+    padding: 25px;
+    border-radius: 4px;
+}
+.header{
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.form-con {
+  /* background-color: rgb(197, 199, 110); */
+  width: 450px;
+  height: 200px;
+  /* text-align: center; */
+}
+
+.name, .email, .message {
+  color: grey;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.name input,
+.email input,
+.message textarea {
+  width: 90%;
+  padding: 6px 4px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+.btn{
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 6px;
+    margin: 12px 180px;
+}
